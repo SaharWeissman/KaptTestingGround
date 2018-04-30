@@ -1,3 +1,5 @@
+a com.saharw.annotationprocessor.GenName 0
 p com.saharw.firstannotationprocessor 0
+c 0 0/Hello
 d 0/Hello
 d 0/MainKt

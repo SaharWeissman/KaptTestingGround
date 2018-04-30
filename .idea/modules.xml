@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app_main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app_main.iml" group="app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app_test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app_test.iml" group="app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/firstannotationprocessor.iml" filepath="$PROJECT_DIR$/.idea/modules/firstannotationprocessor.iml" />
       <module fileurl="file://$PROJECT_DIR$/processor/processor.iml" filepath="$PROJECT_DIR$/processor/processor.iml" group="processor" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/processor/processor_main.iml" filepath="$PROJECT_DIR$/.idea/modules/processor/processor_main.iml" group="processor" />

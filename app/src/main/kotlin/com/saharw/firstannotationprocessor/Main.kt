@@ -1,9 +1,11 @@
 package com.saharw.firstannotationprocessor
 
-//@GenName
+import com.saharw.annotationprocessor.GenName
+
+@GenName
 class Hello
 
 fun main(args: Array<String>){
-//    println("Hello ${Generated_Hello().getName()}")
+    println("Hello ${Generated_Hello().getName()}")
 }
 
