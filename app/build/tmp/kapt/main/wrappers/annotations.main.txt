@@ -1,0 +1,3 @@
+p com.saharw.firstannotationprocessor 0
+d 0/Hello
+d 0/MainKt

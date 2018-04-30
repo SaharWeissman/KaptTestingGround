@@ -1,0 +1,12 @@
+p com.saharw.annotationprocessor 0
+d 0/GenName
+a java.lang.annotation.Retention 0
+c 0 0/GenName
+d 0/Processor
+a com.google.auto.service.AutoService 1
+c 1 0/Processor
+a org.jetbrains.annotations.NotNull 2
+m 2 0/Processor getSupportedAnnotationTypes
+m 2 0/Processor getSupportedSourceVersion
+d 0/Processor$Companion
+f 2 0/Processor KAPT_KOTLIN_GENERATED_OPTION_NAME
