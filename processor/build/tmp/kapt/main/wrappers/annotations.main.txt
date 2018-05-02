@@ -1,12 +1,20 @@
 p com.saharw.annotationprocessor 0
-d 0/Processor
-a com.google.auto.service.AutoService 0
-c 0 0/Processor
+d 0/GenName
+a java.lang.annotation.Retention 0
+c 0 0/GenName
+d 0/PooledProcessor
 a org.jetbrains.annotations.NotNull 1
+f 1 0/PooledProcessor TAG
+m 1 0/PooledProcessor getTAG
+f 1 0/PooledProcessor POOLED_CLASS_PERFIX
+m 1 0/PooledProcessor getPOOLED_CLASS_PERFIX
+d 0/Processor
+a com.google.auto.service.AutoService 2
+c 2 0/Processor
 m 1 0/Processor getSupportedAnnotationTypes
 m 1 0/Processor getSupportedSourceVersion
 d 0/Processor$Companion
 f 1 0/Processor KAPT_KOTLIN_GENERATED_OPTION_NAME
-d 0/GenName
-a java.lang.annotation.Retention 2
-c 2 0/GenName
+p com.saharw.annotationprocessor.pooled 1
+d 1/Pooled
+c 0 1/Pooled

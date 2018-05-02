@@ -15,8 +15,8 @@
           <option name="apiVersion" value="1.1" />
           <option name="pluginOptions">
             <array>
+              <option value="plugin:org.jetbrains.kotlin.kapt:output=D:\Workspace\Practice\KaptTestingGround\processor\build\tmp\kapt\test\wrappers\annotations.test.txt" />
               <option value="plugin:org.jetbrains.kotlin.kapt:inherited=true" />
-              <option value="plugin:org.jetbrains.kotlin.kapt:output=C:\Workspace\AndroidProjects\Practice\kapt\KaptTestingGround\processor\build\tmp\kapt\test\wrappers\annotations.test.txt" />
             </array>
           </option>
           <option name="pluginClasspaths">
@@ -27,7 +27,7 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output-test url="file://$MODULE_DIR$/../../../processor/build/classes/java/test" />
+    <output-test url="file://$MODULE_DIR$/../../../processor/out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../processor/src/test">
       <sourceFolder url="file://$MODULE_DIR$/../../../processor/src/test/java" isTestSource="true" />
@@ -37,16 +37,25 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="processor_main" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../../processor/libs/ObjectPoolSDK-1.0.00.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-math3:3.6.1" level="project" />
     <orderEntry type="library" name="Gradle: com.squareup:kotlinpoet:0.7.0" level="project" />
     <orderEntry type="library" name="Gradle: com.google.auto.service:auto-service:1.0-rc2" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre8:1.1.3-2" level="project" />
+    <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.21" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.2.21" level="project" />
     <orderEntry type="library" name="Gradle: com.google.auto:auto-common:0.3" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:18.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.2.21" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
   </component>

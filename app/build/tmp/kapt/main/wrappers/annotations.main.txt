@@ -1,5 +1,12 @@
-a com.saharw.annotationprocessor.GenName 0
-p com.saharw.firstannotationprocessor 0
-c 0 0/Hello
-d 0/Hello
-d 0/MainKt
+p com.saharw.firstannotationprocessor.test 0
+d 0/Foo
+a com.saharw.annotationprocessor.pooled.Pooled 0
+c 0 0/Foo
+d 0/Foo$Companion
+a org.jetbrains.annotations.NotNull 1
+m 1 0/Foo$Companion create
+p com.saharw.firstannotationprocessor 1
+d 1/Hello
+a com.saharw.annotationprocessor.GenName 2
+c 2 1/Hello
+d 1/MainKt

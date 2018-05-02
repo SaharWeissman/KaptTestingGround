@@ -47,7 +47,9 @@ class Processor : AbstractProcessor() {
                     val pack = processingEnv.elementUtils.getPackageOf(it).toString()
                     generateClass(className, pack)
                 })
-        return true
+
+        //TODO: testing
+        return PooledProcessor().process(processingEnv, annotations, roundEnv)
     }
 
     private fun generateClass(className: String, pack: String){
